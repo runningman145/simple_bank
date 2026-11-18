@@ -5,7 +5,7 @@ import (
 	db "github.com/runningman145/simple_bank/db/sqlc"
 )
 
-// server serves http requessts for out banking service
+// server serves http requests for our banking service
 type Server struct {
 	store *db.Store
 	router *gin.Engine
